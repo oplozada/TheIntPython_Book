@@ -1,0 +1,3 @@
+# Introducción {.unnumbered}
+
+Este libro tiene como propósito servir de apoyo al aprendizaje de quienes se incian en el estudio del Lenguaje Python, ofreciendosle una secuencia que facilite el camino de la formación. También se ha previsto que sirva como guía para aquellos que conociendo el lenguaje requieran realizar consultas.

@@ -1,0 +1,17 @@
+{
+  "chapters/01_intro.qmd": {
+    "01_intro.html": "d6a27ec2"
+  },
+  "index.qmd": {
+    "index.html": "84623450"
+  },
+  "intro.qmd": {
+    "intro.html": "268fb0dc"
+  },
+  "summary.qmd": {
+    "summary.html": "679f07e6"
+  },
+  "references.qmd": {
+    "references.html": "d898b08c"
+  }
+}

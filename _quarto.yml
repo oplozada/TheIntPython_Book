@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: _site
+
+lang: es
+
+book: 
+  title: "Introducción al Python" 
+  author: "Osmar de Jesús Pérez Lozada" 
+  date: "7/10/2025"  
+
+  chapters:
+    - index.qmd	
+    - intro.qmd
+    - chapters/01_intro.qmd
+    - summary.qmd 
+    - references.qmd
+
+bibliography: references.bib
+
+format: 
+    html: 
+      theme: cosmo 
+             brand 
+      css: styles.css
+    
+    pdf:  
+      tbl-cap-location: bottom 
+      documentclass: scrreprt 
+      include-in-header:
+        - text: |
+           \usepackage{ragged2e}
+           \justifying
+    #documentclass: report tbl-cap-location: bottom
+
+execute:
+  echo: true
+  warning: false
+  message: false

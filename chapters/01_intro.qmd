@@ -1,0 +1,42 @@
+---
+title: "Fundamentos"
+---
+
+Este capítulo muestra cómo referenciar Figuras y Tablas (ver @fig-seno-py y @tbl-datos).
+
+## Imagen estática
+
+![Curva seno en (\[-\\pi,\\pi\]).](./images/seno.png){#fig-seno}
+
+## Figura generada por Python
+
+```{python}
+#| label: fig-seno-py
+#| fig-cap: 'Relación entre $x$ y $\sin(x)$ en $[-\pi,\pi]$.'
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(-np.pi, np.pi, 300)
+plt.figure()
+plt.plot(x, np.sin(x))
+plt.xlabel("x"); plt.ylabel("sin(x)"); plt.title("Seno")
+plt.show()
+```
+
+## Tabla Markdown
+
+| Operación | Ejemplo  | Resultado |
+|-----------|----------|-----------|
+| Suma      | `21 + 3` | `24`      |
+| Potencia  | `2 ** 3` | `08`       |
+
+: Operaciones básicas en Python {#tbl-ops}
+
+## Tabla desde código test
+
+```{python}
+#| label: tbl-datos
+#| tbl-cap: "Datos aleatorios de ejemplo."
+import pandas as pd, numpy as np
+pd.DataFrame({"x": range(1,6), "y": np.random.randn(5).round(2)})
+```
