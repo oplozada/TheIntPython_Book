@@ -1,3 +1,37 @@
 p {
   text-align: justify;   
 }
+
+
+
+/* Estilo para una tabla con la clase .tabla-azul */
+
+/* El selector principal ahora es .tabla-azul table */
+.tabla-gris table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-family: sans-serif;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-gris thead th {
+  background-color: #A6A6A6; /* Azul de la cabecera */
+  color: #FFFFFF;           /* Texto blanco */
+  font-weight: bold;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.tabla-gris tbody td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.tabla-gris tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+.tabla-gris tbody tr:nth-child(even) {
+  background-color: #F2F2F2; /* Celeste muy claro */
+}
