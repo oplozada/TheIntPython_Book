@@ -64,7 +64,7 @@
     "href": "chapters/01_intro.html#tabla-desde-código-test",
     "title": "1  Fundamentos",
     "section": "1.4 Tabla desde código test",
-    "text": "1.4 Tabla desde código test\n\nimport pandas as pd, numpy as np\npd.DataFrame({\"x\": range(1,6), \"y\": np.random.randn(5).round(2)})\n\n\n\nTabla 1.2: Datos aleatorios de ejemplo.\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n0.92\n\n\n1\n2\n-0.46\n\n\n2\n3\n-0.09\n\n\n3\n4\n-0.47\n\n\n4\n5\n0.81",
+    "text": "1.4 Tabla desde código test\n\nimport pandas as pd, numpy as np\npd.DataFrame({\"x\": range(1,6), \"y\": np.random.randn(5).round(2)})\n\n\n\nTabla 1.2: Datos aleatorios de ejemplo.\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n1\n-0.33\n\n\n1\n2\n-2.20\n\n\n2\n3\n-0.33\n\n\n3\n4\n0.57\n\n\n4\n5\n-1.11",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Fundamentos</span>"
     ]
@@ -77,6 +77,66 @@
     "text": "In summary, este libro no tiene contenido.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html",
+    "href": "chapters/anexos.html",
+    "title": "Anexos",
+    "section": "",
+    "text": "Operadores aritméticos",
+    "crumbs": [
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html#operadores-aritméticos",
+    "href": "chapters/anexos.html#operadores-aritméticos",
+    "title": "Anexos",
+    "section": "",
+    "text": "Operador\nDescripción\nEjemplo\nResultado\n\n\n\n\n+\nSuma\nc3 + 2\n5\n\n\n-\nResta\n5 - 2\n3\n\n\n*\nMultiplicación\n4 \\* 3\n12\n\n\n/\nDivisión real\n7 / 2\n3.5\n\n\n//\nDivisión entera\n7 // 2\n3\n\n\n%\nMódulo\n7 % 2\n1\n\n\n**\nPotencia\n2 ** 3\n8\n\n\n@\nProducto matricial\nA \\ B\nMatriz resultante",
+    "crumbs": [
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html#operadores-de-asignación",
+    "href": "chapters/anexos.html#operadores-de-asignación",
+    "title": "Anexos",
+    "section": "Operadores de asignación",
+    "text": "Operadores de asignación\n\n\n\n\n\n\n\n\n\nOperador\nDescripción\nEjemplo\nEquivalente a\n\n\n\n\n=\nAsignación\nx = 5\n—\n\n\n+=\nSuma y asigna\nx += 3\nx = x + 3\n\n\n-=\nResta y asigna\nx -= 2\nx = x - 2\n\n\n*=\nMultiplica y asigna\nx *= 4\nx = x * 4\n\n\n/=\nDivide y asigna\nx /= 2\nx = x / 2\n\n\n//=\nDivisión entera y asigna\nx //= 2\nx = x // 2\n\n\n%=\nMódulo y asigna\nx %= 2\nx = x % 2\n\n\n**=\nPotencia y asigna\nx **= 2\nx = x ** 2\n\n\n|=,&=,^=,&lt;&lt;=,&gt;&gt;=\nAsignaciones con bits\nx &= 3\nx = x & 3\n\n\n:=\nAsignación por expresión (walrus)\nif (n := len(lista)) &gt; 3:\nAsigna dentro de la expresión",
+    "crumbs": [
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html#operadores-relacionales",
+    "href": "chapters/anexos.html#operadores-relacionales",
+    "title": "Anexos",
+    "section": "Operadores relacionales",
+    "text": "Operadores relacionales\n\n\n\nOperador\nDescripción\nEjemplo\nResultado\n\n\n\n\n&lt;\nMenor que\n3 &lt; 5\nTrue\n\n\n&lt;=\nMenor o igual que\n3 &lt;= 3\nTrue\n\n\n&gt;\nMayor que\n7 &gt; 4\nTrue\n\n\n&gt;=\nMayor o igual que\n7 &gt;= 7\nTrue\n\n\n==\nIgual que\n5 == 5\nTrue\n\n\n!=\nDistinto de\n5 != 3\nTrue",
+    "crumbs": [
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html#operadores-lógicos",
+    "href": "chapters/anexos.html#operadores-lógicos",
+    "title": "Anexos",
+    "section": "Operadores lógicos",
+    "text": "Operadores lógicos\n\n\n\n\n\n\n\n\n\nOperador\nDescripción\nEjemplo\nResultado\n\n\n\n\nand\nVerdadero si ambos son True\n(5 &gt; 3) and (2 &lt; 4)\nTrue\n\n\nor\nVerdadero si alguno es True\n(5 &gt; 3) or (2 &gt; 4)\nTrue\n\n\nnot\nInvierte el valor lógico\nnot (5 &gt; 3)\nFalse",
+    "crumbs": [
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "chapters/anexos.html#operadores-de-bits",
+    "href": "chapters/anexos.html#operadores-de-bits",
+    "title": "Anexos",
+    "section": "Operadores de bits",
+    "text": "Operadores de bits\n\n\n\nOperador\nDescripción\nEjemplo (a=6 b=3)\nResultado\n\n\n\n\n&\nAND\na & b\n2\n\n\n|\nOr\na | b\n7\n\n\n^\nXOR\na ^ b\n5\n\n\n~\nNOT\n~a\n-7\n\n\n&lt;&lt;\nDesplazamiento izq.\na &lt;&lt; 1\n12\n\n\n&gt;&gt;\nDesplazamiento der.\na &gt;&gt; 1\n3",
+    "crumbs": [
+      "Anexos"
     ]
   }
 ]

@@ -1,0 +1,59 @@
+# Anexos {.unnumbered}
+
+## Operadores aritméticos
+
+| Operador | Descripción        |  Ejemplo |         Resultado |
+|:---------|--------------------|---------:|------------------:|
+| `+`      | Suma               | `c3 + 2` |               `5` |
+| `-`      | Resta              |  `5 - 2` |               `3` |
+| `*`      | Multiplicación     | `4 \* 3` |              `12` |
+| `/`      | División real      |  `7 / 2` |             `3.5` |
+| `//`     | División entera    | `7 // 2` |               `3` |
+| `%`      | Módulo             |  `7 % 2` |               `1` |
+| `**`     | Potencia           | `2 ** 3` |               `8` |
+| `@`      | Producto matricial |  `A \ B` | Matriz resultante |
+
+## Operadores de asignación
+
+| Operador | Descripción | Ejemplo | Equivalente a |
+|------------------|------------------|------------------:|-----------------:|
+| `=` | Asignación | `x = 5` | — |
+| `+=` | Suma y asigna | `x += 3` | `x = x + 3` |
+| `-=` | Resta y asigna | `x -= 2` | `x = x - 2` |
+| `*=` | Multiplica y asigna | `x *= 4` | `x = x * 4` |
+| `/=` | Divide y asigna | `x /= 2` | `x = x / 2` |
+| `//=` | División entera y asigna | `x //= 2` | `x = x // 2` |
+| `%=` | Módulo y asigna | `x %= 2` | `x = x % 2` |
+| `**=` | Potencia y asigna | `x **= 2` | `x = x ** 2` |
+| `|=,&=,^=,<<=,>>=` | Asignaciones con bits | `x &= 3` | `x = x & 3` |
+| `:=` | Asignación por expresión (*walrus*) | `if (n := len(lista)) > 3:` | Asigna dentro de la expresión |
+
+## Operadores relacionales
+
+| Operador | Descripción       |  Ejemplo | Resultado |
+|----------|-------------------|---------:|----------:|
+| `<`      | Menor que         |  `3 < 5` |      True |
+| `<=`     | Menor o igual que | `3 <= 3` |      True |
+| `>`      | Mayor que         |  `7 > 4` |      True |
+| `>=`     | Mayor o igual que | `7 >= 7` |      True |
+| `==`     | Igual que         | `5 == 5` |      True |
+| `!=`     | Distinto de       | `5 != 3` |      True |
+
+## Operadores lógicos
+
+| Operador | Descripción                 |               Ejemplo | Resultado |
+|----------|-----------------------------|----------------------:|----------:|
+| `and`    | Verdadero si ambos son True | `(5 > 3) and (2 < 4)` |      True |
+| `or`     | Verdadero si alguno es True |  `(5 > 3) or (2 > 4)` |      True |
+| `not`    | Invierte el valor lógico    |         `not (5 > 3)` |     False |
+
+## Operadores de bits
+
+| Operador | Descripción         | Ejemplo (a=6 b=3) | Resultado |
+|----------|---------------------|------------------:|----------:|
+| `&`      | AND                 |           `a & b` |         2 |
+| `|`      | Or                  |           `a | b` |         7 |
+| `^`      | XOR                 |           `a ^ b` |         5 |
+| `~`      | NOT                 |              `~a` |        -7 |
+| `<<`     | Desplazamiento izq. |          `a << 1` |        12 |
+| `>>`     | Desplazamiento der. |          `a >> 1` |         3 |

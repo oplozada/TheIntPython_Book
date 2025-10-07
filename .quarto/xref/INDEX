@@ -13,5 +13,8 @@
   },
   "references.qmd": {
     "references.html": "d898b08c"
+  },
+  "chapters/anexos.qmd": {
+    "anexos.html": "1c43783e"
   }
 }
